@@ -1,0 +1,43 @@
+A flip flop is an electronic circuit with two stable states that can be used to store binary data. 
+Flip-flops(electronic)
+The stored data can be changed by applying varying inputs. 
+Flip-flops and latches are fundamental building blocks of digital electronics systems used in computers, communications, and many other types of systems. 
+Flip-flops and latches are used as data storage elements. 
+It is the basic storage element in sequential logic. But first, let’s clarify the difference between a latch and a flip-flop.
+
+Flip flop v/s Latch
+The basic difference between a latch and a flip-flop is a gating or clocking mechanism.
+
+Read the full comparison of Flip Flop v/s latch here
+
+For example, let us talk about SR latch and SR flip-flops. 
+In this circuit when you Set S as active the output Q would be high and Q’ will be low. 
+This is irrespective of anything else. (This is an active-low circuit so active here means low, but for an active high circuit active would mean high)
+In this circuit diagram, the output is changed (i.e. the stored data is changed) only when you give an active clock signal. Otherwise, even if the S or R is active the data will not change. Let’s look at the types of flip-flops to understand better.
+
+SR Flip Flop
+There are majorly 4 types of flip flops, with the most common one being SR flip flop. 
+This simple flip flop circuit has a set input (S) and a reset input (R). In this circuit when you Set “S” as active the output “Q” would be high and “Q‘‘” will be low. Once the outputs are established, the wiring of the circuit is maintained until “S” or “R” go high, or power is turned off. As shown above, it is the simplest and easiest to understand. The two outputs, as shown above, are the inverse of each other. 
+The truth table of SR Flip Flop is
+he two inverters or NOT gates are connected in series with the output at Q fed back to the input. Unfortunately, this configuration never changes state because the output will always be the same, either a “1” or a “0”, it is permanently set. However, we can see how feedback works by examining the most basic sequential logic components, called the SR flip-flop.
+
+SR Flip-Flop
+The SR flip-flop, also known as a SR Latch, can be considered as one of the most basic sequential logic circuit possible. This simple flip-flop is basically a one-bit memory bistable device that has two inputs, one which will “SET” the device (meaning the output = “1”), and is labelled S and one which will “RESET” the device (meaning the output = “0”), labelled R.
+
+Then the SR description stands for “Set-Reset”. The reset input resets the flip-flop back to its original state with an output Q that will be either at a logic level “1” or logic “0” depending upon this set/reset condition.
+
+A basic NAND gate SR flip-flop circuit provides feedback from both of its outputs back to its opposing inputs and is commonly used in memory circuits to store a single data bit. Then the SR flip-flop actually has three inputs, Set, Reset and its current output Q relating to it’s current state or history. 
+The term “Flip-flop” relates to the actual operation of the device, as it can be “flipped” into one logic Set state or “flopped” back into the opposing logic Reset state.
+
+The NAND Gate SR Flip-Flop
+The simplest way to make any basic single bit set-reset SR flip-flop is to connect together a pair of cross-coupled 2-input NAND gates as shown, to form a Set-Reset Bistable also known as an active LOW SR NAND Gate Latch, so that there is feedback from each output to one of the other NAND gate inputs. 
+This device consists of two inputs, one called the Set, S and the other called the Reset, R with two corresponding outputs Q and its inverse or complement Q (not-Q) as shown below.
+The Set State
+Consider the circuit shown above. If the input R is at logic level “0” (R = 0) and input S is at logic level “1” (S = 1), the NAND gate Y  has at least one of its inputs at logic “0” therefore, its output Q must be at a logic level “1” (NAND Gate principles). Output Q is also fed back to input “A” and so both inputs to NAND gate X are at logic level “1”, and therefore its output Q must be at logic level “0”.
+
+Again NAND gate principals. If the reset input R changes state, and goes HIGH to logic “1” with S remaining HIGH also at logic level “1”, NAND gate Y inputs are now R = “1” and B = “0”. Since one of its inputs is still at logic level “0” the output at Q still remains HIGH at logic level “1” and there is no change of state. Therefore, the flip-flop circuit is said to be “Latched” or “Set” with Q = “1” and Q = “0”.
+
+Reset State
+In this second stable state, Q is at logic level “0”, (not Q = “0”) its inverse output at Q is at logic level “1”, (Q = “1”), and is given by R = “1” and S = “0”. As gate X has one of its inputs at logic “0” its output Q must equal logic level “1” (again NAND gate principles). Output Q is fed back to input “B”, so both inputs to NAND gate Y are at logic “1”, therefore, Q = “0”.
+
+If the set input, S now changes state to logic “1” with input R remaining at logic “1”, output Q still remains LOW at logic level “0” and there is no change of state. Therefore, the flip-flop circuits “Reset” state has also been latched and we can define this “set/reset” action in the following truth table.
