@@ -1,0 +1,7 @@
+D:\Универ\3 курс\Комп Сиситемы\Олег\2 лаба\part1c\part1c\bin\Debug\part1c.exe.config
+D:\Универ\3 курс\Комп Сиситемы\Олег\2 лаба\part1c\part1c\bin\Debug\part1c.exe
+D:\Универ\3 курс\Комп Сиситемы\Олег\2 лаба\part1c\part1c\bin\Debug\part1c.pdb
+D:\Универ\3 курс\Комп Сиситемы\Олег\2 лаба\part1c\part1c\obj\Debug\part1c.csprojResolveAssemblyReference.cache
+D:\Универ\3 курс\Комп Сиситемы\Олег\2 лаба\part1c\part1c\obj\Debug\part1c.csproj.CoreCompileInputs.cache
+D:\Универ\3 курс\Комп Сиситемы\Олег\2 лаба\part1c\part1c\obj\Debug\part1c.exe
+D:\Универ\3 курс\Комп Сиситемы\Олег\2 лаба\part1c\part1c\obj\Debug\part1c.pdb
